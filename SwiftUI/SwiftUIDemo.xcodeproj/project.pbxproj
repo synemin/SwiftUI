@@ -7,8 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54CC244328B676BD00C9F25C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CC243628B676BC00C9F25C /* MapView.swift */; };
+		54CC244428B676BD00C9F25C /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CC243728B676BC00C9F25C /* CircleImage.swift */; };
+		54CC244528B676BD00C9F25C /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CC243828B676BC00C9F25C /* LandmarkList.swift */; };
+		54CC244628B676BD00C9F25C /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CC243928B676BC00C9F25C /* LandmarkDetail.swift */; };
+		54CC244728B676BD00C9F25C /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CC243A28B676BC00C9F25C /* LandmarkRow.swift */; };
+		54CC244828B676BD00C9F25C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CC243B28B676BC00C9F25C /* ContentView.swift */; };
+		54CC244928B676BD00C9F25C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54CC243D28B676BC00C9F25C /* Preview Assets.xcassets */; };
+		54CC244A28B676BD00C9F25C /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CC243F28B676BC00C9F25C /* ModelData.swift */; };
+		54CC244B28B676BD00C9F25C /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CC244028B676BC00C9F25C /* Landmark.swift */; };
+		54CC244C28B676BD00C9F25C /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 54CC244228B676BC00C9F25C /* landmarkData.json */; };
+		54CC244E28B677D500C9F25C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CC244D28B677D500C9F25C /* SceneDelegate.swift */; };
 		5505B47928B51EBE00467E14 /* SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5505B47828B51EBE00467E14 /* SwiftUIApp.swift */; };
-		5505B47B28B51EBE00467E14 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5505B47A28B51EBE00467E14 /* ContentView.swift */; };
 		5505B47D28B51EC000467E14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5505B47C28B51EC000467E14 /* Assets.xcassets */; };
 		5505B48028B51EC000467E14 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5505B47F28B51EC000467E14 /* Preview Assets.xcassets */; };
 		5505B48A28B51EC000467E14 /* SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5505B48928B51EC000467E14 /* SwiftUITests.swift */; };
@@ -34,9 +44,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		54CC243628B676BC00C9F25C /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		54CC243728B676BC00C9F25C /* CircleImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		54CC243828B676BC00C9F25C /* LandmarkList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
+		54CC243928B676BC00C9F25C /* LandmarkDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
+		54CC243A28B676BC00C9F25C /* LandmarkRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
+		54CC243B28B676BC00C9F25C /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		54CC243D28B676BC00C9F25C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		54CC243F28B676BC00C9F25C /* ModelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		54CC244028B676BC00C9F25C /* Landmark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		54CC244228B676BC00C9F25C /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		54CC244D28B677D500C9F25C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		54CC244F28B6788000C9F25C /* SwiftUIDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "SwiftUIDemo-Info.plist"; sourceTree = "<group>"; };
 		5505B47528B51EBE00467E14 /* SwiftUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5505B47828B51EBE00467E14 /* SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIApp.swift; sourceTree = "<group>"; };
-		5505B47A28B51EBE00467E14 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5505B47C28B51EC000467E14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5505B47F28B51EC000467E14 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5505B48528B51EC000467E14 /* SwiftUIDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,9 +92,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		54CC243528B676BC00C9F25C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				54CC243628B676BC00C9F25C /* MapView.swift */,
+				54CC243728B676BC00C9F25C /* CircleImage.swift */,
+				54CC243828B676BC00C9F25C /* LandmarkList.swift */,
+				54CC243928B676BC00C9F25C /* LandmarkDetail.swift */,
+				54CC243A28B676BC00C9F25C /* LandmarkRow.swift */,
+				54CC243B28B676BC00C9F25C /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		54CC243C28B676BC00C9F25C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				54CC243D28B676BC00C9F25C /* Preview Assets.xcassets */,
+			);
+			name = "Preview Content";
+			path = "../../../SwiftUI111/Landmarks/Landmarks/Preview Content";
+			sourceTree = "<group>";
+		};
+		54CC243E28B676BC00C9F25C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				54CC243F28B676BC00C9F25C /* ModelData.swift */,
+				54CC244028B676BC00C9F25C /* Landmark.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		54CC244128B676BC00C9F25C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				54CC244228B676BC00C9F25C /* landmarkData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		5505B46C28B51EBE00467E14 = {
 			isa = PBXGroup;
 			children = (
+				54CC244F28B6788000C9F25C /* SwiftUIDemo-Info.plist */,
 				5505B47728B51EBE00467E14 /* SwiftUI */,
 				5505B48828B51EC000467E14 /* SwiftUITests */,
 				5505B49228B51EC000467E14 /* SwiftUIUITests */,
@@ -94,8 +155,12 @@
 		5505B47728B51EBE00467E14 /* SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				54CC243E28B676BC00C9F25C /* Model */,
+				54CC243C28B676BC00C9F25C /* Preview Content */,
+				54CC244128B676BC00C9F25C /* Resources */,
+				54CC243528B676BC00C9F25C /* Views */,
 				5505B47828B51EBE00467E14 /* SwiftUIApp.swift */,
-				5505B47A28B51EBE00467E14 /* ContentView.swift */,
+				54CC244D28B677D500C9F25C /* SceneDelegate.swift */,
 				5505B47C28B51EC000467E14 /* Assets.xcassets */,
 				5505B47E28B51EC000467E14 /* Preview Content */,
 			);
@@ -232,6 +297,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5505B48028B51EC000467E14 /* Preview Assets.xcassets in Resources */,
+				54CC244C28B676BD00C9F25C /* landmarkData.json in Resources */,
+				54CC244928B676BD00C9F25C /* Preview Assets.xcassets in Resources */,
 				5505B47D28B51EC000467E14 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +324,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5505B47B28B51EBE00467E14 /* ContentView.swift in Sources */,
+				54CC244428B676BD00C9F25C /* CircleImage.swift in Sources */,
+				54CC244A28B676BD00C9F25C /* ModelData.swift in Sources */,
+				54CC244828B676BD00C9F25C /* ContentView.swift in Sources */,
+				54CC244328B676BD00C9F25C /* MapView.swift in Sources */,
 				5505B47928B51EBE00467E14 /* SwiftUIApp.swift in Sources */,
+				54CC244E28B677D500C9F25C /* SceneDelegate.swift in Sources */,
+				54CC244628B676BD00C9F25C /* LandmarkDetail.swift in Sources */,
+				54CC244728B676BD00C9F25C /* LandmarkRow.swift in Sources */,
+				54CC244528B676BD00C9F25C /* LandmarkList.swift in Sources */,
+				54CC244B28B676BD00C9F25C /* Landmark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,7 +494,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "SwiftUIDemo-Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -448,7 +523,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "SwiftUIDemo-Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
