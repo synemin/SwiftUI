@@ -2,7 +2,7 @@
 //  FavoriteButton.swift
 //  SwiftUIDemo
 //
-//  Created by 张建峰 on 2022/8/25.
+//  Created by augday on 2022/8/25.
 //
 
 import SwiftUI
