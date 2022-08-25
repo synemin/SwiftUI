@@ -10,6 +10,11 @@
 		54686E3728B768AB002EBBBD /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54686E3628B768AB002EBBBD /* CategoryHome.swift */; };
 		54686E3928B76A84002EBBBD /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54686E3828B76A84002EBBBD /* CategoryRow.swift */; };
 		54686E3B28B76BB5002EBBBD /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54686E3A28B76BB5002EBBBD /* CategoryItem.swift */; };
+		54686E3F28B77386002EBBBD /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54686E3E28B77386002EBBBD /* Profile.swift */; };
+		54686E4128B7744F002EBBBD /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54686E4028B7744F002EBBBD /* ProfileHost.swift */; };
+		54686E4328B7749C002EBBBD /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54686E4228B7749C002EBBBD /* ProfileSummary.swift */; };
+		54686E4528B775BE002EBBBD /* HikeBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54686E4428B775BE002EBBBD /* HikeBadge.swift */; };
+		54686E4728B7BC99002EBBBD /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54686E4628B7BC99002EBBBD /* ProfileEditor.swift */; };
 		54CC244328B676BD00C9F25C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CC243628B676BC00C9F25C /* MapView.swift */; };
 		54CC244428B676BD00C9F25C /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CC243728B676BC00C9F25C /* CircleImage.swift */; };
 		54CC244528B676BD00C9F25C /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CC243828B676BC00C9F25C /* LandmarkList.swift */; };
@@ -62,6 +67,11 @@
 		54686E3628B768AB002EBBBD /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
 		54686E3828B76A84002EBBBD /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		54686E3A28B76BB5002EBBBD /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
+		54686E3E28B77386002EBBBD /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		54686E4028B7744F002EBBBD /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
+		54686E4228B7749C002EBBBD /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
+		54686E4428B775BE002EBBBD /* HikeBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeBadge.swift; sourceTree = "<group>"; };
+		54686E4628B7BC99002EBBBD /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
 		54CC243628B676BC00C9F25C /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		54CC243728B676BC00C9F25C /* CircleImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		54CC243828B676BC00C9F25C /* LandmarkList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
@@ -144,9 +154,21 @@
 			path = Hikes;
 			sourceTree = "<group>";
 		};
+		54686E3D28B7736E002EBBBD /* Profiles */ = {
+			isa = PBXGroup;
+			children = (
+				54686E3E28B77386002EBBBD /* Profile.swift */,
+				54686E4028B7744F002EBBBD /* ProfileHost.swift */,
+				54686E4628B7BC99002EBBBD /* ProfileEditor.swift */,
+				54686E4228B7749C002EBBBD /* ProfileSummary.swift */,
+			);
+			path = Profiles;
+			sourceTree = "<group>";
+		};
 		54CC243528B676BC00C9F25C /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				54686E3D28B7736E002EBBBD /* Profiles */,
 				54CC245228B70C2F00C9F25C /* Helpers */,
 				54CC245328B70C4700C9F25C /* Landmarks */,
 				54686E3C28B77141002EBBBD /* Hikes */,
@@ -209,6 +231,7 @@
 			children = (
 				54CC245428B7134800C9F25C /* HexagonParameters.swift */,
 				54CC245628B7142800C9F25C /* BadgeBackground.swift */,
+				54686E4428B775BE002EBBBD /* HikeBadge.swift */,
 				54CC245828B716E800C9F25C /* BadgeSymbol.swift */,
 				54CC245A28B7177B00C9F25C /* RotatedBadgeSymbol.swift */,
 				54CC245C28B717BA00C9F25C /* Badge.swift */,
@@ -415,17 +438,22 @@
 				54CC244428B676BD00C9F25C /* CircleImage.swift in Sources */,
 				54CC244A28B676BD00C9F25C /* ModelData.swift in Sources */,
 				54686E3728B768AB002EBBBD /* CategoryHome.swift in Sources */,
+				54686E4128B7744F002EBBBD /* ProfileHost.swift in Sources */,
+				54686E4528B775BE002EBBBD /* HikeBadge.swift in Sources */,
 				54CC246928B761BB00C9F25C /* HikeGraph.swift in Sources */,
 				54686E3928B76A84002EBBBD /* CategoryRow.swift in Sources */,
 				54CC244828B676BD00C9F25C /* ContentView.swift in Sources */,
 				54CC244328B676BD00C9F25C /* MapView.swift in Sources */,
 				5505B47928B51EBE00467E14 /* SwiftUIApp.swift in Sources */,
+				54686E4328B7749C002EBBBD /* ProfileSummary.swift in Sources */,
+				54686E4728B7BC99002EBBBD /* ProfileEditor.swift in Sources */,
 				54686E3B28B76BB5002EBBBD /* CategoryItem.swift in Sources */,
 				54CC244E28B677D500C9F25C /* SceneDelegate.swift in Sources */,
 				54CC245928B716E800C9F25C /* BadgeSymbol.swift in Sources */,
 				54CC245B28B7177B00C9F25C /* RotatedBadgeSymbol.swift in Sources */,
 				54CC245D28B717BA00C9F25C /* Badge.swift in Sources */,
 				54CC244628B676BD00C9F25C /* LandmarkDetail.swift in Sources */,
+				54686E3F28B77386002EBBBD /* Profile.swift in Sources */,
 				54CC245728B7142800C9F25C /* BadgeBackground.swift in Sources */,
 				54CC244728B676BD00C9F25C /* LandmarkRow.swift in Sources */,
 				54CC246828B761BB00C9F25C /* GraphCapsule.swift in Sources */,
