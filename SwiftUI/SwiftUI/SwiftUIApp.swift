@@ -24,9 +24,10 @@ struct SwiftUIAppWrapper {
 
 @available(iOS 14.0, *)
 struct SwiftUIApp: App {
+    @StateObject private var modelData = ModelData()
     var body:some Scene{
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(modelData)
         }
     }
 }
