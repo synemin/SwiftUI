@@ -6,12 +6,28 @@
 //
 
 import SwiftUI
-
+import UIKit
 @main
+struct SwiftUIAppWrapper {
+    static func main() {
+        if#available(iOS 14.0, *) {
+            SwiftUIApp.main()
+        }else{
+            UIApplicationMain(
+                CommandLine.argc,
+                CommandLine.unsafeArgv,
+                nil,
+                NSStringFromClass(SceneDelegate.self))
+        }
+    }
+}
+
+@available(iOS 14.0, *)
 struct SwiftUIApp: App {
-    var body: some Scene {
+    @StateObject private var modelData = ModelData()
+    var body:some Scene{
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(modelData)
         }
     }
 }
